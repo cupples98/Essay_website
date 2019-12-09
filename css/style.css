@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     font-size: 100%;
-    line-height: 1em;
+    line-height: 1.5em;
 }
 
 /*----- main styling -----*/
@@ -51,6 +51,8 @@ header h2 {
 }
 
 /*----- typography -----*/
+
+
 h1,
 h2,
 h3 {
@@ -77,11 +79,12 @@ h2 {
     font-size: 1.5em;
     padding: 20px 100px 20px 0px;
     font-weight: bold;
+    border-bottom: 1px solid #0D00F8;
 
 }
 
 h3 {
-    font-size: 1.414;
+    font-size: 1.414em;
 
 }
 
@@ -89,7 +92,21 @@ p {
     padding: 20px 500px 2px 0px;
     width: 50%;
 }
+
+.grid-container {
+    display: grid;
+    grid: 150px / auto auto auto;
+    grid-gap: 10px;
+    padding: 10px 10px 10px 10px;
 }
+
+.grid-container > div {
+
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    font-size: 1.414em;
+}
+
 
 /*----- styleing links -----*/
 
@@ -144,6 +161,31 @@ nav a:hover {
     border-bottom: none;
 }
 
+.bio {
+    width: 100%;
+    background-color: #0D00F8;
+    color: white;
+    opacity: 1;
+    padding: 20px 50px 20px 100px;
+    font-size: 1.000em;
+    font-style: bold;
+}
+
+.bio h2 {
+    color: white;
+    font-size: 2.0em;
+    font-style: normal;
+    width: 100%;
+}
+
+a {
+
+    color: white;
+
+}
+
+
+
 
 /*----- footer -----*/
 footer {
@@ -159,17 +201,19 @@ footer {
 
 .connections {
     position: relative;
-    margin: 0 auto;
-    margin: 20, 0px;
+    display: inline;
+    height: 50px;
+
 }
 
 .connections ul {
     margin: 0;
     padding: 0;
+    height: 50px;
 }
 
 .connections li {
-    margin: 0 15px;
+    margin: 0 20px;
     padding: 0;
     list-style: none;
     display: inline-block;
