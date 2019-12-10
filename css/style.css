@@ -41,7 +41,7 @@ header {
 }
 
 .intro {
-    height: 600px;
+    height: 500px;
 
 }
 
@@ -197,6 +197,7 @@ nav a:hover {
     padding: 20px 50px 20px 100px;
     font-size: 1.000em;
     font-style: bold;
+    height: 500px;
 }
 
 .bio h2 {
